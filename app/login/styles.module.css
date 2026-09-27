@@ -1,0 +1,172 @@
+.authPage{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #A3D7EB, #ffffff);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 7rem;
+}
+
+.logo{
+    font-family: 'Inter', sans-serif;
+    font-size: 4.375rem;
+    font-weight: 800;
+    background: radial-gradient(circle,  #7189A7, #00459A, #7189A7);
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 1.25rem;
+    padding: 0.5rem;
+    line-height: 100%;
+}
+
+.authContainer{
+    min-height: 28.5625rem;
+    width: 30.125rem;
+    border-radius: .75rem;
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0px;
+    
+}
+
+.authRegister{
+    min-height: 28.5625rem;
+    min-width: 30.125rem;
+    border-radius: .75rem;
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0px;
+}
+
+.loginTitle{
+    font-family: 'Inter', sans-serif;
+    width: 24rem;
+    font-size: 3.125rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.loginLink{
+    width: 24rem;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.125rem;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+    justify-content: center;
+}
+
+.loginLink a{
+    text-decoration: none;
+    color: #007BFE;
+    font-weight: 600;
+}
+
+.authTitle{
+    font-family: 'Inter', sans-serif;
+    width: 24rem;
+    font-size: 3.125rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
+
+.registerLink{
+    width: 24rem;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.125rem;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+    
+}
+
+.registerLink a{
+    text-decoration: none;
+    color: #007BFE;
+    font-weight: 600;
+}
+
+.authInput{
+    border: 1px solid #EDF1F3;
+    height:2.875rem;
+    width: 24rem;
+    border-radius: .625rem;
+    position: relative;
+}
+
+.loginForm{
+    gap:1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginOptions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 24.625rem;
+    font-size: .75rem;
+    font-weight: 500;
+    color: #6C7278;
+
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: .75rem;
+    color:#6C7278;
+    gap: .125rem;
+}
+
+.inputContainer img{
+    height: 1rem;
+    width: 1rem;
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+}
+
+::placeholder{
+    padding-left: 1rem;
+}
+
+.loginOptions a{
+    text-decoration: none;
+    color: #007BFE;
+    font-weight: 600;
+}
+
+.loginCheckbox{
+    display: flex;
+    align-items: center;
+    gap: .3125rem;
+}
+
+.formButton{
+    background-color: #1B559D;
+    height: 3rem;
+    width: 24.625rem;
+    border-radius: .625rem;
+    border: none;
+    padding: .625rem 1.5rem;
+    font-family: 'Inter', sans-serif;
+    font-size: .875rem;
+    color:#FFFFFF;
+    font-weight: 500;
+}
